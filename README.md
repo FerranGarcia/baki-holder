@@ -25,3 +25,8 @@
 3- Use a semi-rigid cable to facilite the magnets to encounter.
 
 ![](./img/installation.png)
+
+Finally, remember disabling the smart stiffness using:
+````
+motion.setSmartStiffnessEnabled(False)
+````
