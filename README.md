@@ -3,8 +3,9 @@
 ### This repository contains the .stl files to 3D print a BAKI (BAcklash KIller) holder in order to mitigate the undesired movement in Pepper's neck.
 ### The system is composed by the magnet holder and the BAKI components specified in the schema:
 
-
-![](./img/schema.png)
+<p align="center">
+  <img src="./img/schema.png">
+</p>
 
 
 #### Printing suggestions:
@@ -24,7 +25,9 @@
 
 3- Use a semi-rigid cable to facilite the magnets to encounter.
 
-![](./img/installation.png)
+<p align="center">
+  <img src="./img/installation.png">
+</p>
 
 Finally, remember disabling the smart stiffness using:
 ````
