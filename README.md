@@ -1,14 +1,14 @@
 # baki-holder
 
-### This repository contains the .stl files to 3D print a BAKI (BAcklash KIller) holder in order to mitigate the undesired movement in Pepper's neck.
-### The system is composed by the magnet holder and the BAKI components specified in the schema:
+This repository contains the .stl files to 3D print a BAKI (BAcklash KIller) holder in order to mitigate the undesired movement in Pepper's neck.
+The system is composed by the magnet holder and the BAKI components specified in the schema:
 
 <p align="center">
   <img src="./img/schema.png">
 </p>
 
 
-#### Printing suggestions:
+### Printing suggestions:
 
 **- Support material:** No
 
@@ -17,7 +17,7 @@
 **- Infill:** 100
 
 
-#### Installation in Pepper:
+### Installation in Pepper:
 
 1- Attach the holder using 2xM2 or M2.5 screws to the back.
 
@@ -33,3 +33,15 @@ Finally, remember disabling the smart stiffness using:
 ````
 motion.setSmartStiffnessEnabled(False)
 ````
+
+<p align="center">
+  <img src="./img/wakeup.gif">
+</p>
+
+### Result:
+
+Head pose acquired while displacing the rebot's base on a flat surface while tracking the position of the neck.
+
+<p align="center">
+  <img src="./img/result.png" height="250">
+</p>
